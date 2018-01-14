@@ -31,6 +31,7 @@ wget https://github.com/MRtrix3/mrtrix3/archive/${VERSION}.zip; unzip -o ${VERSI
 mv ~/temp/mrtrix3-3.0_RC2 $D_DIR
 cd $D_DIR
 ./configure
+export NUMBER_OF_PROCESSORS=1
 ./build
 ./set_path
 cd
