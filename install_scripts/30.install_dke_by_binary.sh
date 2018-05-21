@@ -35,11 +35,11 @@ rm -rf $TMP_DIR
 
 #install dke
 RANDOM_TEMP=${RANDOM}
-wget https://www.dropbox.com/s/trnelcwppyrlibf/Linux64.zip?dl=0 -O ${RANDOM_TEMP}.zip;unzip -o ${RANDOM_TEMP}.zip -d $D_DIR; rm ${RANDOM_TEMP}.zip
+wget https://www.dropbox.com/s/1xw4z2k0dslppu8/Linux64.zip?dl=0 -O ${RANDOM_TEMP}.zip;unzip -o ${RANDOM_TEMP}.zip -d $D_DIR; rm ${RANDOM_TEMP}.zip
 
 #install dke fiber tracking module
 RANDOM_TEMP=${RANDOM}
-wget https://www.dropbox.com/s/mvagskpbt75ah31/Linux_FT.zip?dl=0 -O ${RANDOM_TEMP}.zip;unzip -o ${RANDOM_TEMP}.zip -d $D_DIR; rm ${RANDOM_TEMP}.zip
+wget https://www.dropbox.com/s/c951rv5qg8fkwn5/Linux_FT.zip?dl=0 -O ${RANDOM_TEMP}.zip;unzip -o ${RANDOM_TEMP}.zip -d $D_DIR; rm ${RANDOM_TEMP}.zip
 
 
 #add additional layer of wrappers to include mcr path:
