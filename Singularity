@@ -1,5 +1,5 @@
-Bootstrap: shub
-From: khanlab/neuroglia-core:v1.0.0
+Bootstrap: docker
+From: khanlab/neuroglia-core:latest
 
 %labels
 Maintainer "Ali Khan"
