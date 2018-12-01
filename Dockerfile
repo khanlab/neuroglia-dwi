@@ -1,4 +1,4 @@
-FROM khanlab/neuroglia-core:latest
+FROM khanlab/neuroglia-core:v1.5
 MAINTAINER <alik@robarts.ca>
 
 RUN mkdir -p /src/install_scripts
