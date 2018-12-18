@@ -10,6 +10,9 @@ RUN bash /src/install_scripts/28.install_camino_by_source.sh /opt > log_28_camin
 RUN bash /src/install_scripts/29.install_unring_by_binary.sh /opt > log_29_unring
 RUN bash /src/install_scripts/30.install_dke_by_binary.sh /opt > log_30_dke
 
+#get older version of FSL vecreg binary (pre FSL 6.0) since new version hangs
+RUN curl -L --retry 5 https://www.dropbox.com/s/knqyoot3l8ty54f/vecreg_5.0.11 -o /opt/fsl/bin/vecreg_5.0.11 && chmod a+x /opt/fsl/bin/vecreg_5.0.11
+
 #remove all install scripts
 RUN rm -rf /src
 
