@@ -26,9 +26,9 @@ apt-get update && apt-get install -y libeigen3-dev zlib1g-dev libqt4-opengl-dev 
 #./build
 
 #from release
-VERSION=3.0_RC2
+VERSION=3.0_RC3
 wget https://github.com/MRtrix3/mrtrix3/archive/${VERSION}.zip; unzip -o ${VERSION}.zip -d ~/temp;rm ${VERSION}.zip
-mv ~/temp/mrtrix3-3.0_RC2 $D_DIR
+mv ~/temp/mrtrix3-${VERSION} $D_DIR
 cd $D_DIR
 ./configure
 #export NUMBER_OF_PROCESSORS=1
