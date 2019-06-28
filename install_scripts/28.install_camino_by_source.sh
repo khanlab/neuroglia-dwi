@@ -20,8 +20,8 @@ CAMINO_DIR=$D_DIR
 mkdir -p $D_DIR
 
 #release from: https://sourceforge.net/projects/camino
-HASH=9cf8bef17561e88d730df3bc6a8bc111ed1d93aa
-VERSION=2017.10.06 
+HASH=1c4ef77615d103d43adcff6c79b72d0bbdac0897
+VERSION=2019-02-01 
 URL=https://downloads.sourceforge.net/project/camino/camino-code-$HASH.zip
 
 #In MBs -- make this larger if you are running out of java virtual memory
